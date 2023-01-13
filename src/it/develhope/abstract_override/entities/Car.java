@@ -17,6 +17,7 @@ public class Car extends Vehicle{
 
     /**
      * Constructor of subclass Car created
+     * @param type  The type of vehicle
      * @param wheels The number of wheels of the Car
      * @param doors The number of doors of the car
      * @param price The price of the car

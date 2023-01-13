@@ -14,7 +14,11 @@ public class Boat extends Vehicle{
         this.boatKilosWeight = weight;
     }
 
+    /**
+     * define boat method
+     * @return The weight of the boat in kilograms(kg), the speed in km/h.
+     */
     public String getBoatWeightAndSpeed(){
-        return "Total kilos weight is " + boatKilosWeight + " and maximum speed is " + maxKnotsSpeed;
+        return "Total kilos weight is " + boatKilosWeight + " kg  and maximum speed is " + maxKnotsSpeed + " km/h";
     }
 }
