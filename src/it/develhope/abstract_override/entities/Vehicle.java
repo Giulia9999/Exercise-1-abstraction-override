@@ -7,5 +7,9 @@ public abstract class Vehicle {
     public void showVehicleDetails(){
         System.out.println("The vehicle is " + type + " and it has " + numberOfWheels + " wheels");
     }
+
+    /**
+     * created abstract method implemented in subclass Car
+     */
     public abstract void doVehicleSound();
 }
