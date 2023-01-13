@@ -8,6 +8,12 @@ public class Boat extends Vehicle{
     public void doVehicleSound() {
         System.out.println("Boat sound");
     }
+
+    /**
+     * Constructor method for Boat
+     * @param maxSpeed double representing the maximum Boat speed in knots
+     * @param weight an int for the total weight in kilos
+     */
     public  Boat(String type, double maxSpeed, int weight){
         this.type = type;
         this.maxKnotsSpeed = maxSpeed;
@@ -16,9 +22,9 @@ public class Boat extends Vehicle{
 
     /**
      * define boat method
-     * @return The weight of the boat in kilograms(kg), the speed in km/h.
+     * @return The weight of the boat in kilos(kg), the speed in knots.
      */
     public String getBoatWeightAndSpeed(){
-        return "Total kilos weight is " + boatKilosWeight + "kg  and maximum speed is " + maxKnotsSpeed + "km/h";
+        return "Total kilos weight is " + boatKilosWeight + "kg  and maximum speed is " + maxKnotsSpeed + "knots";
     }
 }

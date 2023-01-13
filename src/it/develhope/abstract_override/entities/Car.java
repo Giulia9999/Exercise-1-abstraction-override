@@ -16,11 +16,11 @@ public class Car extends Vehicle{
     }
 
     /**
-     * Constructor of subclass Car created
+     * Car constructor
      * @param type  The type of vehicle
-     * @param wheels The number of wheels of the Car
-     * @param doors The number of doors of the car
-     * @param price The price of the car
+     * @param wheels and int number of wheels of the Car
+     * @param doors a double number of doors of the car
+     * @param price an int number for the price of the car
      */
     public Car (String type, int wheels, int doors, int price){
         this.numberOfWheels = wheels;
