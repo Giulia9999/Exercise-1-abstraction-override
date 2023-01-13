@@ -1,8 +1,8 @@
 package it.develhope.abstract_override.entities;
 
 public class Boat extends Vehicle{
-    double maxKnotsSpeed;
-    int boatKilosWeight;
+    private double maxKnotsSpeed;
+    private int boatKilosWeight;
 
     @Override
     public void doVehicleSound() {
@@ -15,7 +15,7 @@ public class Boat extends Vehicle{
      * @param weight an int for the total weight in kilos
      */
     public  Boat(String type, double maxSpeed, int weight){
-        this.type = type;
+        this.setType(type);
         this.maxKnotsSpeed = maxSpeed;
         this.boatKilosWeight = weight;
     }

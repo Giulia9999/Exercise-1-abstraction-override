@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="814fa0b3-0a69-4303-8f17-eb6456d13595" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/develhope/abstract_override/entities/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/abstract_override/entities/Boat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/develhope/abstract_override/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/abstract_override/entities/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/abstract_override/entities/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/abstract_override/entities/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

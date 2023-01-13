@@ -1,8 +1,8 @@
 package it.develhope.abstract_override.entities;
 
 public class Car extends Vehicle{
-    public int numberOfDoors;
-    public double carPrice;
+    private int numberOfDoors;
+    private double carPrice;
 
     @Override
     public void showVehicleDetails() {
@@ -23,10 +23,10 @@ public class Car extends Vehicle{
      * @param price an int number for the price of the car
      */
     public Car (String type, int wheels, int doors, int price){
-        this.numberOfWheels = wheels;
+        this.setNumberOfWheels(wheels);
         this.numberOfDoors = doors;
         this.carPrice = price;
-        this.type = type;
+        this.setType(type);
     }
 
 
