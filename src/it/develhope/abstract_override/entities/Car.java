@@ -21,10 +21,11 @@ public class Car extends Vehicle{
      * @param doors The number of doors of the car
      * @param price The price of the car
      */
-    public Car (int wheels, int doors, int price){
+    public Car (String type, int wheels, int doors, int price){
         this.numberOfWheels = wheels;
         this.numberOfDoors = doors;
         this.carPrice = price;
+        this.type = type;
     }
 
 
