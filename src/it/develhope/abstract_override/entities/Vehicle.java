@@ -9,7 +9,7 @@ public abstract class Vehicle {
     }
 
     /**
-     * created abstract method implemented in subclass Car
+     * created abstract method implemented in subclass Car and Boat
      */
     public abstract void doVehicleSound();
 }
